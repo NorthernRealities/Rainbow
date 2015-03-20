@@ -46,7 +46,7 @@ I also want to get the library so that it can be used with Mac applications.  Ri
 
 ## Contact
 
-If you find a problem, want to suggest a colour, suggest how something that can be done differently, or even say hi you can reach me on @NrthrnRealities on Twitter.
+If you find a problem, want to suggest a colour, suggest how something that can be done differently, or even say hi you can reach me on [@NrthrnRealities](https://twitter.com/NrthrnRealities) on Twitter.
 
 ## A Note About Spelling
 
