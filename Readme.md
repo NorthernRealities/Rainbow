@@ -19,7 +19,8 @@ To use the library download the file you want and import it into your project.  
 
 * __UIColor+Rainbow.swift__ - The complete palette of colours.  If you import this one into your project don't use any others.
 * __UIColor+RainbowCrayons.swift__ - A subset that only includes colours that are or have been Crayola colours.
-* __UIColor+RainbowLight.swift__ - A subset that contains the more common colours.  Please let me know if you think a colour should be in here.
+* __UIColor+RainbowLight.swift__ - A subset that contains the more common colours.  Please let me know if you think a colour should be in here.  This palette is one that I am choosing the colours for on my own.
+* __UIColor+RainbowX11.swift__ - A palette that contains a subset which are the defined X11 colours.  They are also known as the web colours because all of the browsers define them along with the 16 colours defined in the HTML spec.  I've created this subset because I figured that it's probably a nice light-weight and balanced palette to make available.
 
 If you can't find a colour in the library and you want to use the new color instance creation function add the file __UIColor+Creater.swift__ to your project.  Then you can change your code from
 
@@ -41,12 +42,13 @@ In the meantime you can view the colours at Wikipedia where I got the data for a
 * [List of Colors: G-M](https://en.wikipedia.org/wiki/List_of_colors:_G–M)
 * [List of Colors: N-Z](https://en.wikipedia.org/wiki/List_of_colors:_N–Z)
 * [List of Crayola Crayon Colors](https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors)
+* [X11 Color Names](https://en.wikipedia.org/wiki/X11_color_names)
 
 I also want to get the library so that it can be used with Mac applications.  Right now it is only useful for iOS apps.  Since I haven't built any apps for the Mac I don't know what needs to be done for the conversion.  Any assistance would be appreciated.
 
 ## Contact
 
-If you find a problem, want to suggest a colour, suggest how something that can be done differently, or even say hi you can reach me on [@NrthrnRealities](https://twitter.com/NrthrnRealities) on Twitter.
+If you find a problem, want to suggest a colour (or know someone I could approach about asking to use their colour set), suggest how something that can be done differently, or even say hi you can reach me on [@NrthrnRealities](https://twitter.com/NrthrnRealities) on Twitter.
 
 ## A Note About Spelling
 

@@ -5986,6 +5986,18 @@ extension UIColor {
 
 
     /**
+        Returns a color object representing the color Green Yellow, whose RBG values are (173, 255, 47), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func greenYellowColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 173.0/255.0, green: 255.0/255.0, blue: 47.0/255.0, alpha: alpha ) }
+
+
+    /**
         Returns a color object representing the color Green-Cyan, whose RBG values are (0, 153, 102), and has the specified opacity.
     
         :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
@@ -5995,18 +6007,6 @@ extension UIColor {
 
     class func greenCyanColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
         return  UIColor.init ( red: 0.0/255.0, green: 153.0/255.0, blue: 102.0/255.0, alpha: alpha ) }
-
-
-    /**
-        Returns a color object representing the color Green-Yellow, whose RBG values are (173, 255, 47), and has the specified opacity.
-    
-        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
-    
-        :returns: The UIColor object
-    */
-
-    class func greenYellowColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
-        return  UIColor.init ( red: 173.0/255.0, green: 255.0/255.0, blue: 47.0/255.0, alpha: alpha ) }
 
 
     /**
@@ -6811,6 +6811,18 @@ extension UIColor {
 
     class func keppelColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
         return  UIColor.init ( red: 58.0/255.0, green: 176.0/255.0, blue: 158.0/255.0, alpha: alpha ) }
+
+
+    /**
+        Returns a color object representing the color Khaki, whose RBG values are (189, 183, 107), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func khakiColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 189.0/255.0, green: 183.0/255.0, blue: 107.0/255.0, alpha: alpha ) }
 
 
     /**
@@ -8874,6 +8886,18 @@ extension UIColor {
     */
 
     class func navyColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 0.0/255.0, green: 0.0/255.0, blue: 128.0/255.0, alpha: alpha ) }
+
+
+    /**
+        Returns a color object representing the color Navy Blue, whose RBG values are (0, 0, 128), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func navyBlueColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
         return  UIColor.init ( red: 0.0/255.0, green: 0.0/255.0, blue: 128.0/255.0, alpha: alpha ) }
 
 
@@ -12370,6 +12394,18 @@ extension UIColor {
 
 
     /**
+        Returns a color object representing the color Sienna (X11), whose RBG values are (160, 82, 45), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func siennaX11Color ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 160.0/255.0, green: 82.0/255.0, blue: 45.0/255.0, alpha: alpha ) }
+
+
+    /**
         Returns a color object representing the color Silver, whose RBG values are (192, 192, 192), and has the specified opacity.
     
         :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
@@ -14542,6 +14578,54 @@ extension UIColor {
 
 
     /**
+        Returns a color object representing the color Web Gray, whose RBG values are (128, 128, 128), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func webGrayColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 128.0/255.0, green: 128.0/255.0, blue: 128.0/255.0, alpha: alpha ) }
+
+
+    /**
+        Returns a color object representing the color Web Green, whose RBG values are (0, 128, 0), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func webGreenColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 0.0/255.0, green: 128.0/255.0, blue: 0.0/255.0, alpha: alpha ) }
+
+
+    /**
+        Returns a color object representing the color Web Maroon, whose RBG values are (127, 0, 0), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func webMaroonColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 127.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: alpha ) }
+
+
+    /**
+        Returns a color object representing the color Web Purple, whose RBG values are (127, 0, 127), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func webPurpleColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 127.0/255.0, green: 0.0/255.0, blue: 127.0/255.0, alpha: alpha ) }
+
+
+    /**
         Returns a color object representing the color Wenge, whose RBG values are (100, 84, 82), and has the specified opacity.
     
         :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
@@ -14842,6 +14926,18 @@ extension UIColor {
 
 
     /**
+        Returns a color object representing the color Yellow Green, whose RBG values are (154, 205, 50), and has the specified opacity.
+    
+        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
+    
+        :returns: The UIColor object
+    */
+
+    class func yellowGreenColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
+        return  UIColor.init ( red: 154.0/255.0, green: 205.0/255.0, blue: 50.0/255.0, alpha: alpha ) }
+
+
+    /**
         Returns a color object representing the color Yellow Rose, whose RBG values are (255, 240, 0), and has the specified opacity.
     
         :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
@@ -14851,18 +14947,6 @@ extension UIColor {
 
     class func yellowRoseColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
         return  UIColor.init ( red: 255.0/255.0, green: 240.0/255.0, blue: 0.0/255.0, alpha: alpha ) }
-
-
-    /**
-        Returns a color object representing the color Yellow-Green, whose RBG values are (154, 205, 50), and has the specified opacity.
-    
-        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
-    
-        :returns: The UIColor object
-    */
-
-    class func yellowGreenColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
-        return  UIColor.init ( red: 154.0/255.0, green: 205.0/255.0, blue: 50.0/255.0, alpha: alpha ) }
 
 
     /**
