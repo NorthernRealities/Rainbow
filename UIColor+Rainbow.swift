@@ -7870,18 +7870,6 @@ extension UIColor {
 
 
     /**
-        Returns a color object representing the color Magenta, whose RBG values are (255, 0, 255), and has the specified opacity.
-    
-        :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
-    
-        :returns: The UIColor object
-    */
-
-    class func magentaColor ( alpha: CGFloat = 1.0 ) -> UIColor { 
-        return  UIColor.init ( red: 255.0/255.0, green: 0.0/255.0, blue: 255.0/255.0, alpha: alpha ) }
-
-
-    /**
         Returns a color object representing the color Magenta (Crayola), whose RBG values are (246, 100, 175), and has the specified opacity.
     
         :param: alpha A CGFloat between 0.0 and 1.0 representing the opacity with a default value of 1.0.
