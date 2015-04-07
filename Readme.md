@@ -28,13 +28,22 @@ If you can't find a colour in the library and you want to use the new color inst
 
 to the following
 
-	let backgroundColour = UIColor.createColorWith ( red: 94, green: 7, blue: 95, alpha: 1.0 )
+	let backgroundColour = UIColor  ( redValue: 94, greenValue: 7, blueValue: 95, alphaValue: 1.0 )
 
-Note that because the alpha value in this case was 1.0 it could have been left off because the function has it set to that value by default.
+Note that because the alpha value in this case was 1.0 it could have been left off because the function has it set to that value by default.  There has been a change from the initial release of the library.  This function used to be called createColorWith but is now a convenience initializer.  I hope that this change doesn't cause you too much trouble.
+
+There are also functions that allow you to create UIColor objects using a hexidecimal integer or string.
+
+	let backgroundColour = UIColor ( hex: 0x42ac58, alpha: 0.75 )
+	let foregroundColour = UIColor ( hexString: "#0f23ec" )
+	
+The setting of the alpha is available in both but if you leave it out then it defaults to 1.0.  (Please note that I have no idea what those will produce.  I just made them up as an example.)
 
 ## Future
 
-In the short term I hope to release an app that will let you view the colours and perform searching.  In the longer term I want to add more colours to the library, either individually or through collections.  Ideally it would be great to get one or more of the paint manufacturers to give their permission to use their their palette.  I know that Pantone would achive the same thing but it would cost money to get the information and they would probably be opposed to it being publicly posted.  All information for the colours was obtained from Wikipedia.  I cleaned up any broken links or incorrect information that I came across while working on this project.  If you contribute a colour to the library please also let me know if I can add it to the list of colours on Wikipedia.
+In the short term I hope to release an app that will let you view the colours and perform searching.  I am continuing work on the app.  If anyone knows of a good library that lets you choose a colour from a colour wheel or something similar I would appreciate hearing about it.  Also I'm looking for a tab bar icon of a palette.  The only ones I've found so far are in paid collections and I'm trying to minimize expenses.
+
+In the longer term I want to add more colours to the library, either individually or through collections.  Ideally it would be great to get one or more of the paint manufacturers to give their permission to use their their palette.  I know that Pantone would achive the same thing but it would cost money to get the information and they would probably be opposed to it being publicly posted.  All information for the colours was obtained from Wikipedia.  I cleaned up any broken links or incorrect information that I came across while working on this project.  If you contribute a colour to the library please also let me know if I can add it to the list of colours on Wikipedia.
 
 In the meantime you can view the colours at Wikipedia where I got the data for all of the colours at the pages.
 
