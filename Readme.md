@@ -42,7 +42,7 @@ The setting of the alpha is available in both but if you leave it out then it de
 
 ## Future
 
-In the short term I hope to release an app that will let you view the colours and perform searching.  I am continuing work on the app.  If anyone knows of a good library that lets you choose a colour from a colour wheel or something similar I would appreciate hearing about it.  Also I'm looking for a tab bar icon of a palette.  The only ones I've found so far are in paid collections and I'm trying to minimize expenses.
+In the short term I hope to release an app that will let you view the colours and perform searching.  I am continuing work on the app.  If anyone knows of a good library that lets you choose a colour from a colour wheel or something similar I would appreciate hearing about it.
 
 In the longer term I want to add more colours to the library, either individually or through collections.  Ideally it would be great to get one or more of the paint manufacturers to give their permission to use their their palette.  I know that Pantone would achive the same thing but it would cost money to get the information and they would probably be opposed to it being publicly posted.  All information for the colours was obtained from Wikipedia.  I cleaned up any broken links or incorrect information that I came across while working on this project.  If you contribute a colour to the library please also let me know if I can add it to the list of colours on Wikipedia.
 
