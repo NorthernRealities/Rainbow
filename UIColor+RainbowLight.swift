@@ -1,6 +1,6 @@
 //
 //  UIColor+RainbowLight.swift
-//  Rainbow UIColor Extension
+//  Rainbow Light UIColor Extension
 //
 //  Created by Reid Gravelle on 2015-03-15.
 //  Copyright (c) 2015 Northern Realities Inc. All rights reserved.

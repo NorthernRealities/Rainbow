@@ -1,6 +1,6 @@
 //
 //  UIColor+RainbowX11.swift
-//  Rainbow UIColor Extension
+//  Rainbow X11 UIColor Extension
 //
 //  Created by Reid Gravelle on 2015-03-26.
 //  Copyright (c) 2015 Northern Realities Inc. All rights reserved.
