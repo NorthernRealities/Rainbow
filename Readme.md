@@ -1,6 +1,6 @@
 # Rainbow UIColor Extension
 
-The primary function of the Rainbow UIColor extension is to provide developers with more colour choices within their applications.  Apple provides a limited number of pre-defined colours such as UIColor.blackColor() and UIColor.greenColor().  This library adds over 1200 more colours to be used.  I think it makes code much easier to read and much more understandable when someone comes across
+The primary function of the Rainbow UIColor extension is to provide developers with more colour choices within their applications.  Apple provides a limited number of pre-defined colours such as UIColor.blackColor() and UIColor.greenColor().  This library adds over 1500 more colours to be used.  I think it makes code much easier to read and much more understandable when someone comes across
 
     let backgroundColour = UIColor.airForceBlueRAFColor()
 
@@ -23,22 +23,7 @@ To use the library download the file you want and import it into your project.  
 * __UIColor+RainbowLight.swift__ - A subset that contains the more common colours.  Please let me know if you think a colour should be in here.  This palette is one that I am choosing the colours for on my own.
 * __UIColor+RainbowX11.swift__ - A palette that contains a subset which are the defined X11 colours.  They are also known as the web colours because all of the browsers define them along with the 16 colours defined in the HTML spec.  I've created this subset because I figured that it's probably a nice light-weight and balanced palette to make available.
 
-If you can't find a colour in the library and you want to use the new color instance creation function add the file __UIColor+Creater.swift__ to your project.  Then you can change your code from
-
-	let backgroundColour = UIColor ( red: 94.0/255.0, green: 7.0/255.0, blue: 95.0/255.0, alpha: 1.0 )
-
-to the following
-
-	let backgroundColour = UIColor  ( redValue: 94, greenValue: 7, blueValue: 95, alphaValue: 1.0 )
-
-Note that because the alpha value in this case was 1.0 it could have been left off because the function has it set to that value by default.  There has been a change from the initial release of the library.  This function used to be called createColorWith but is now a convenience initializer.  I hope that this change doesn't cause you too much trouble.
-
-There are also functions that allow you to create UIColor objects using a hexidecimal integer or string.
-
-	let backgroundColour = UIColor ( hex: 0x42ac58, alpha: 0.75 )
-	let foregroundColour = UIColor ( hexString: "#0f23ec" )
-	
-The setting of the alpha is available in both but if you leave it out then it defaults to 1.0.  (Please note that I have no idea what those will produce.  I just made them up as an example.)
+If you can't find a colour in the library then take a look at the [Rainbow Creator](https://github.com/NorthernRealities/Rainbow-Creator) UIColor extension that allows you to create custom colours using Int values between 0 and 255 or hexidecimal values.  (It was part of this repository but I moved it into it's own to get ready for CocoaPods and Carthage support.)
 
 ## Future
 
