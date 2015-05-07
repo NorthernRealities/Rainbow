@@ -13,6 +13,8 @@ Except for some obvious cases I'm not very good at looking at RGB values and det
 
 The other function of the extension is to provide a helper function for the UIColor class that allows you to create color instances using Int values between 0 and 255 for the RBG values.  The value for the opacity (alpha) has a default value of 1.0.
 
+As of May 7, 2015 I've release a set of files that you can download called [Rainbow-Palettes](https://github.com/NorthernRealities/Rainbow-Palettes) which will add the colours defined in this library to the colour picker in Xcode.
+
 ## Usage
 
 To use the library download the file you want and import it into your project.  If you don't want all of colours then choose one of the subsets.  I will try to make sure that multiple subsets can be used together.  If you encounter a problem please let me know.
