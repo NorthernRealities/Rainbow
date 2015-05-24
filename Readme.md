@@ -42,7 +42,6 @@ In the meantime you can view the colours at Wikipedia where I got the data for a
 * [X11 Color Names](https://en.wikipedia.org/wiki/X11_color_names)
 * [Color - Style - Google Design Guidelines](http://www.google.com/design/spec/style/color.html#)
 
-I also want to get the library so that it can be used with Mac applications.  Right now it is only useful for iOS apps.  Since I haven't built any apps for the Mac I don't know what needs to be done for the conversion.  Any assistance would be appreciated.
 
 ## Contact
 
